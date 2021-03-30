@@ -42,12 +42,10 @@ function Header() {
           </Link>
         </div>
 
-        <Link to="/checkout">
+        <Link to="/Checkout">
           <div className="header_optionBasket">
             <ShoppingBasketIcon className="header_basket" />
-            <span className="header_option_line_2">
-              {basket?.length}
-            </span>
+            <span className="header_option_line_2">{basket?.length}</span>
           </div>
         </Link>
       </nav>
