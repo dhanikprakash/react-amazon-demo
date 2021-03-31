@@ -11,7 +11,6 @@ export function reducer(state, action) {
     case "REMOVE_FROM_BASKET":
       let newBasket = [...state.basket];
       const index = state.basket.findIndex( x => x.id === action.id)
-      console.log("index"+ index)
       newBasket.splice(index,1)
       return { ...state, basket: newBasket };
       break;
