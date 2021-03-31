@@ -58,3 +58,6 @@
     cursor: pointer;
         height: 20px;
 }
+.header{
+display: none;
+}

@@ -18,8 +18,7 @@ function App() {
         <Route
           render={({ location }) => (
             <Switch location={location}>
-              <Route path="/Checkout" component={Checkout}>
-              </Route>
+              <Route path="/Checkout" component={Checkout}></Route>
               <Route path="/login">
                 <h1>Login page</h1>
               </Route>
