@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-amazon-demo/static/css/main.70520291.chunk.css",
-    "main.js": "/react-amazon-demo/static/js/main.d081bc5f.chunk.js",
-    "main.js.map": "/react-amazon-demo/static/js/main.d081bc5f.chunk.js.map",
+    "main.js": "/react-amazon-demo/static/js/main.edaa13c8.chunk.js",
+    "main.js.map": "/react-amazon-demo/static/js/main.edaa13c8.chunk.js.map",
     "runtime-main.js": "/react-amazon-demo/static/js/runtime-main.2a774a1f.js",
     "runtime-main.js.map": "/react-amazon-demo/static/js/runtime-main.2a774a1f.js.map",
     "static/js/2.47050c9d.chunk.js": "/react-amazon-demo/static/js/2.47050c9d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2a774a1f.js",
     "static/js/2.47050c9d.chunk.js",
     "static/css/main.70520291.chunk.css",
-    "static/js/main.d081bc5f.chunk.js"
+    "static/js/main.edaa13c8.chunk.js"
   ]
 }
