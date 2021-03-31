@@ -4,7 +4,15 @@ import "./checkoutproduct.css";
 
 function CheckoutProduct({id, title, image, price, rating }) {
 
-  const  addToBasket = () => {};
+  console.log(id)
+  const [{ basket }, dispatch] = useStateValue();
+
+  const removeFromBasked = () => {
+     dispatch({
+       type: "REMOVE_FROM_BASKET",
+       id:id,
+     });
+  };
 
     return (
       <div className="checkout_product">
@@ -12,7 +20,7 @@ function CheckoutProduct({id, title, image, price, rating }) {
           <img src={image} alt="" />
         </div>
         <div className="checkout_info">
-          <p>{title}</p>
+          <p className="checkout_title">{title}</p>
           <p className="checkout_price">
             <small>£</small>
             <strong>{price}</strong>
@@ -24,7 +32,7 @@ function CheckoutProduct({id, title, image, price, rating }) {
                 <p>&#9733;</p>
               ))}
           </div>
-          <button onClick={addToBasket}>Add to Basket</button>
+          <button onClick={removeFromBasked}>Remove From Basket</button>
         </div>
       </div>
     );
